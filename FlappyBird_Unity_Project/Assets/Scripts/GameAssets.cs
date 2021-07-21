@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// All assets in one place, accessible through this class using GetInstance().
+/// </summary>
 public class GameAssets : MonoBehaviour
 {
     public Transform pfPipeBody;
@@ -17,6 +20,7 @@ public class GameAssets : MonoBehaviour
     {
         return instance;
     }
+
 
     private static GameAssets instance;
 
