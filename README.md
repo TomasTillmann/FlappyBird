@@ -81,7 +81,7 @@ private void Awake()
 }
 ```
 
-This paradigma is used in other scripts as well (Level, Bird).
+This paradigm is used in other scripts as well (Level, Bird).
 
 ##### Score
 * Actively waits for the score to change, then updates it
