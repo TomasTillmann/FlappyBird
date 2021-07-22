@@ -22,7 +22,7 @@ Instead of moving the bird to the right, I decided to fix bird's x position and 
 
 
 #### Scripts Description
-There is 5 scripts in total.
+There is 5 scripts in total. They can be found under _FlappyBird\FlappyBird\_Unity\_Project\Assets\Scripts_.
 * Level
 * Bird
 * GameAssets
