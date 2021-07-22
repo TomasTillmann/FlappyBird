@@ -108,7 +108,7 @@ Overtime, it deletes unneccesary AuidoSource game objects.
 * SoundHandler
     * GameAssets
 
-
+More explanations and descriptions can be found directly in the source code. Enjoy!
 
 
 
