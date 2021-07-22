@@ -2,9 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// FLAPPY BIRD - interactive game
+// Tomas Tillmann, tomas.tilllmann@gmail.com
+// august - 2021
+
+
+
 public static class SoundHandler
 {
     public enum Sound { BirdJump, Score, Lose}; public static Sound sound;
+
+
+    private const int AUDIO_OBJECTS_LIMIT = 20;
+
+    private static List<GameObject> gameObjectAudioList = new List<GameObject>();
+
 
     public static void PlaySound(Sound sound)
     {
@@ -28,10 +41,6 @@ public static class SoundHandler
         cleanUpAudioObjects();
     }
 
-
-    private const int AUDIO_OBJECTS_LIMIT = 20;
-
-    private static List<GameObject> gameObjectAudioList = new List<GameObject>();
 
     /// <summary>
     /// Cleans up the first half of created audioObjects

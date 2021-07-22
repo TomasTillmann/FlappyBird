@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// FLAPPY BIRD - interactive game
+// Tomas Tillmann, tomas.tilllmann@gmail.com
+// august - 2021
+
+
+
 public class Level : MonoBehaviour
 {
     public static Level GetInstance()

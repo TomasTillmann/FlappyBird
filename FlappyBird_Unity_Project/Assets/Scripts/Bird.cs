@@ -2,7 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using CodeMonkey;
+
+
+// FLAPPY BIRD - interactive game
+// Tomas Tillmann, tomas.tilllmann@gmail.com
+// august - 2021
+
+
 
 public class Bird : MonoBehaviour
 {

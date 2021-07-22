@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// FLAPPY BIRD - interactive game
+// Tomas Tillmann, tomas.tilllmann@gmail.com
+// august - 2021
+
+
+
 /// <summary>
 /// All assets in one place, accessible through this class using GetInstance().
 /// </summary>
