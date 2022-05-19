@@ -1,4 +1,7 @@
 # Flappy Bird Remake
+## Source code location
+* FlappyBird_Unity_Project/Assets/Scripts/
+
 ## User Guide
 #### Introduction
 This game is a lightweight remake of an infamous Flappy Bird game! It solely focuses on the Flappy Bird game experience!
